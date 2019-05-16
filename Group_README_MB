@@ -54,3 +54,22 @@ splist <- c('Accipiter erythronemius', 'Junco hyemalis', 'Aix sponsa')
 keys <- sapply(splist, function(x) name_backbone(name=x)$speciesKey, USE.NAMES=FALSE)
 occ_search(taxonKey=keys, limit=5, hasCoordinate=TRUE)
 x <- map_fetch(taxonKey = 3118771, year = 2010)
+# Since we are using the function "search_occ(___________)" we want to take the scientific
+# name of the species (scientificName parameter) from the dataset and input it into the
+# function. 
+
+
+#General Idea: take lattitude/longitude information on a particular species (provided by the user)
+# and then plot a dotted map representing the species distribution. Maybe just within California
+# or a relatively smaller region like that. So the data would look like the example fishbase data,
+# but it would also include L/L. We want to first plot the data like the "map_fetch" function does,
+# which will be a challenge since the function doesn't seem to take alternative data (as in, data
+# from sources other than the GBIF API). After plotting the data on the map, we want to use
+# statistical tests to compare the sample data with the GBIF API data.
+
+#The input would have the following:
+	# Species Scientific Name
+	# Lattitude
+	# Longitude
+	# Anything else...? Elevation? Year?
+
