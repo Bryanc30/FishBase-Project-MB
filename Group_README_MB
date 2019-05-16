@@ -21,9 +21,9 @@
 # your favorite animal repository!!
 
 	# Purpose: The main purpose of the program will be to take data from
-	# the fishbase site and format it in such a way that makes it easier
+	# the rgbif package in the R software and format it in such a way that makes it easier
 	# for someone to look for a specific component. This might be automatically
-	# creating histograms of certain traits among certain sets of fish, for example.
+	# creating histograms of species distributions or creating maps the visualize species distributions.
 
 # What they need to have installed to run the program
 # However, consider the possibility that whoever is reading your README is a 
@@ -41,3 +41,16 @@
 
 # In summary, you want your Readme to attract potential users, then convince them 
 # that you program is awesome, and show them how to use it.
+
+*Getting familiar with rgbif in R by trying different commands*
+#install.packages('openssl')
+#install.packages('rgeos')
+#install.packages('rgbif')
+occ_search(scientificName = "Ursus americanus", limit = 50) 
+occ_search(taxonKey=key, limit=20)
+key <- name_backbone(name='Helianthus annuus', kingdom='plants')$speciesKey
+occ_search(taxonKey=key, limit=20)
+splist <- c('Accipiter erythronemius', 'Junco hyemalis', 'Aix sponsa')
+keys <- sapply(splist, function(x) name_backbone(name=x)$speciesKey, USE.NAMES=FALSE)
+occ_search(taxonKey=keys, limit=5, hasCoordinate=TRUE)
+x <- map_fetch(taxonKey = 3118771, year = 2010)
