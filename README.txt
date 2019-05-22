@@ -1,0 +1,94 @@
+# Suggestions for a good README
+# Every project is different, so consider which of these sections apply to your
+# project. The sections used in the template are suggestions for most open source
+# projects Readme files typically tell potential users:
+
+# The name of the program
+# Choose a self-explaining name for your project.
+
+	# Name: To be determined.
+
+# The authors of the programs
+# Name of students in your group
+
+	# Authors: Bryan, Maria 
+
+# The purpose for writing the program 
+# Let people know what your program can do specifically. Provide context and add
+# a link to any reference visitors might be unfamiliar with. A list of Features 
+# or a Background subsection can also be added here. Also, depending on what you 
+# are making, it can be a good idea to include screenshots or images. Remember 
+# your favorite animal repository!!
+
+	# Purpose: The main purpose of the program will be to take data from
+	# the rgbif package in the R software and format it in such a way that makes it easier
+	# for someone to look for a specific component. This might be automatically
+	# creating histograms of species distributions or creating maps the visualize species distributions.
+
+# What they need to have installed to run the program
+# However, consider the possibility that whoever is reading your README is a 
+# novice and would like more guidance. Do they need R packages? Python Libraries?
+
+	# To be determined.
+
+# How to actually use the program 
+# The commands to run, how to access the help menu, etc. Show the expected output 
+# if you can. It’s helpful to have inline the smallest example of usage that you 
+# can demonstrate, while providing links to more sophisticated examples if they 
+# are too long to reasonably include in the README.
+
+	# To be determined.
+
+# In summary, you want your Readme to attract potential users, then convince them 
+# that you program is awesome, and show them how to use it.
+
+*Getting familiar with rgbif in R by trying different commands*
+#install.packages('openssl')
+#install.packages('rgeos')
+#install.packages('rgbif')
+occ_search(scientificName = "Ursus americanus", limit = 50) 
+occ_search(taxonKey=key, limit=20)
+key <- name_backbone(name='Helianthus annuus', kingdom='plants')$speciesKey
+occ_search(taxonKey=key, limit=20)
+splist <- c('Accipiter erythronemius', 'Junco hyemalis', 'Aix sponsa')
+keys <- sapply(splist, function(x) name_backbone(name=x)$speciesKey, USE.NAMES=FALSE)
+occ_search(taxonKey=keys, limit=5, hasCoordinate=TRUE)
+x <- map_fetch(taxonKey = 3118771, year = 2010)
+# Since we are using the function "search_occ(___________)" we want to take the scientific
+# name of the species (scientificName parameter) from the dataset and input it into the
+# function. 
+
+
+#General Idea: take lattitude/longitude information on a particular species (provided by the user)
+# and then plot a dotted map representing the species distribution. Maybe just within California
+# or a relatively smaller region like that. So the data would look like the example fishbase data,
+# but it would also include L/L. We want to first plot the data like the "map_fetch" function does,
+# which will be a challenge since the function doesn't seem to take alternative data (as in, data
+# from sources other than the GBIF API). After plotting the data on the map, we want to use
+# statistical tests to compare the sample data with the GBIF API data.
+
+#The input would have the following:
+	# Species Scientific Name
+	# Lattitude
+	# Longitude
+	# Anything else...? Elevation? Year?
+
+# Pseudocode:
+
+# First, take the species name from the inputted data. The species name should be the same
+# for the entire set of data, so the code will just take the species name from the first line of data.
+
+# Once it has that species name, it will use the occ_search() function to search it.
+
+# Next, from the search output, it will take the lattitude and longitude data columns and
+# create a new table that only contains those two columns.
+
+
+#Code:
+	#Stuff
+
+#Example Data:
+
+	#Stuff
+
+<img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
