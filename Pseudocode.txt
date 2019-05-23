@@ -1,0 +1,9 @@
+# First, take the species name from the inputted data. The species name should be the same
+# for the entire set of data, so the code will just take the species name from the first line of data.
+
+# Once it has that species name, it will use the occ_search() function to search it.
+
+# Next, from the search output, it will take the lattitude and longitude data columns and
+# create a new table that only contains those two columns.
+
+
