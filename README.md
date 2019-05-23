@@ -3,9 +3,9 @@ Every project is different, so consider which of these sections apply to your <b
 project. The sections used in the template are suggestions for most open source <br>
 projects Readme files typically tell potential users:<br>
 
-#**Name: Species Location Comparer**
+# **Name: Species Location Comparer**
 
-# **Authors** 
+## **Authors** 
 Bryan and Maria <br>
 
 The purpose for writing the program <br>
@@ -15,7 +15,7 @@ or a Background subsection can also be added here. Also, depending on what you <
 are making, it can be a good idea to include screenshots or images. Remember <br>
 
 
-#**Purpose:** 
+## **Purpose:** 
 The main purpose of the program will be to take data from
 the rgbif package in the R software and format it in such a way that makes it easier for someone to look for a specific component. This might be automatically creating histograms of species distributions or creating maps the visualize species distributions. <br>
 
@@ -36,7 +36,7 @@ are too long to reasonably include in the README. <br>
 In summary, you want your Readme to attract potential users, then convince them <br>
 that you program is awesome, and show them how to use it. <br>
 
-#**Getting familiar with rgbif in R by trying different commands**
+## **Getting familiar with rgbif in R by trying different commands**
 install.packages('openssl') <br>
 install.packages('rgeos') <br>
 install.packages('rgbif') <br>
@@ -51,7 +51,7 @@ x <- map_fetch(taxonKey = 3118771, year = 2010) <br>
 **Since we are using the function "search_occ(___________)" we want to take the scientific name of the species (scientificName parameter) from the dataset and input it into the function.** <br> 
 
 
-#**General Idea**
+## **General Idea**
 Take lattitude/longitude information on a particular species (provided by the user) and then plot a dotted map representing the species distribution. Maybe just within California or a relatively smaller region like that. So the data would look like the example fishbase data, but it would also include L/L. We want to first plot the data like the "map_fetch" function does, which will be a challenge since the function doesn't seem to take alternative data (as in, data from sources other than the GBIF API). After plotting the data on the map, we want to use statistical tests to compare the sample data with the GBIF API data. <br>
 
 **The input would have the following:** <br>
@@ -60,7 +60,7 @@ Take lattitude/longitude information on a particular species (provided by the us
 	Longitude <br>
 	Anything else...? Elevation? Year? <br>
 
-# **Pseudocode:**
+## **Pseudocode:**
 
 First, take the species name from the inputted data. The species name should be the samefor the entire set of data, so the code will just take the species name from the first line of data. <br>
 
@@ -76,5 +76,6 @@ Next, from the search output, it will take the lattitude and longitude data colu
 
 	Stuff
 
-#**Project Flowchart**
+## **Project Flowchart**
+
 <img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
