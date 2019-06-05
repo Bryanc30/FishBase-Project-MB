@@ -10,7 +10,7 @@ library(openssl)
 library(rgeos)
 library(rgbif)
 
-input = read.csv("thing.txt")
+input = read.csv("thing.txt", header = F)
 col <- input[[1]]
 
 for (i in col){
@@ -21,14 +21,17 @@ for (i in col){
 #install.packages('raster')
 library(raster)
 
-input1 = read.csv("thing.txt")
+input1 = read.csv("thing.txt", header = F)
 col1 <- input1[[1]]
 
 for (X in col1){
-	key <- name_backone(name = as.character(X))$speciesKey
+	print(X)
+	name = ""
+	key <- name_backbone(name = as.character(X))$speciesKey
 	M <- map_fetch(taxonKey = key)
+	name = paste("SpeciesPlot",X,".jpg")
 	plot(M)
-	jpeg('rplot.jpg')
-	plot(x)
+	jpeg(name)
+	plot(M)
 	dev.off()        
 }
