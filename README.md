@@ -1,25 +1,23 @@
 # **Species Location Comparer**
 
 ## **Authors** 
-Bryan <br>
+Bryan bclem96@gmail.com  <br>
 Maria Tafoya: tafoya.maria07@gmail.com  <br>
 
 ## **Purpose:** 
-The main purpose of the program will be to take data from
-the rgbif package in the R software and format it in such a way that makes it easier for someone to look for a specific component. This might be automatically creating histograms of species distributions or creating maps the visualize species distributions. <br>
+The main purpose of the program will be to take input data from the user involving multiple species, as well as locational data, and return both the GBIF database results and create a file folder containing population maps of each of those species. <br>
 
 ### **General Idea**
-Take lattitude/longitude information on a particular species (provided by the user) and then plot a dotted map representing the species distribution. Maybe just within California or a relatively smaller region like that. So the data would look like the example fishbase data, but it would also include L/L. We want to first plot the data like the "map_fetch" function does, which will be a challenge since the function doesn't seem to take alternative data (as in, data from sources other than the GBIF API). After plotting the data on the map, we want to use statistical tests to compare the sample data with the GBIF API data. <br>
+The general idea of the program is to make it easier to see if data you collected on species' locations is unusual compared to what has already been observed in years past. It does so using the GBIF database, which contains hundreds of records on almost every species. <br>
 
 **The input would have the following:** <br>
 	Species Scientific Name <br>
   Lattitude <br>
 	Longitude <br>
-	Anything else...? Elevation? Year? <br>
 
 ### **Pseudocode:**
 
-First, take the species name from the inputted data. The species name should be the samefor the entire set of data, so the code will just take the species name from the first line of data. <br>
+First, take the species name from the inputted data. The species name should be the same for the entire set of data, so the code will just take the species name from the first line of data. <br>
 
 Once it has that species name, it will use the occ_search() function to search it. <br>
 
