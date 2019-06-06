@@ -1,1 +1,0 @@
-perl -pe 's/(.*)\;\n/\1Nothing\n/g' Sample_Data.txt | grep ';' | grep -v 'Nothing' | perl -pe 's/;;/;Nothing;/g' | perl -pe 's/\;/\t/g' | awk '{ print $10, $11 }' > thing.txt | head -n1 thing.txt > Final_Product.txt
