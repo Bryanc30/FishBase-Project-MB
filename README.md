@@ -27,7 +27,7 @@ Next, from the search output, it will take the lattitude and longitude data colu
 <img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
 
 ## **Dependencies**
-The program can be run using R within Hoffman2, so R studio is not required. However it is recommended for practice purposes. In R within Hoffman2, four packages must donloaded manually: openssl, rgeos, rgbif, and raster. 
+The program can be run using R within Hoffman2, so R studio is not required. However it is recommended for practice purposes. In R within Hoffman2, four packages must downloaded manually: openssl, rgeos, rgbif, and raster. 
 
 ### **Getting familiar with rgbif in R studio by trying different commands**
 install.packages('openssl') <br>
@@ -56,7 +56,7 @@ You can now return to Hoffman2 to run the script by typing 'quit()' in the comma
 To run the script type the following in the command line: <br>
 'sh scriptname.sh'
 
-## Expected Output**
+## **Expected Output**
 The designed script will take species information from a dataset and place the species names into a seperate file. Using the 'occ_search' tool in the rgbif package, the script will take a species name one at a time and run it providing a data set including latitide/longitude values. Using the 'map_fetch' tool in the same package, the script will run species names one at a time and output a map with longiude/latitude values plotted.
 
 
