@@ -1,0 +1,40 @@
+Records found [12480] 
+Records returned [500] 
+No. unique hierarchies [1] 
+No. media records [481] 
+No. facets [0] 
+Args [limit=500, offset=0, scientificName=Ursus americanus, fields=all] 
+# A tibble: 500 x 76
+   key   scientificName decimalLatitude decimalLongitude issues datasetKey
+   <chr> <chr>                    <dbl>            <dbl> <chr>  <chr>     
+ 1 1990… Ursus america…            44.9            -62.7 cdrou… 50c9509d-…
+ 2 1990… Ursus america…            40.9           -121.  gass84 50c9509d-…
+ 3 2006… Ursus america…            31.5           -110.  cdrou… 50c9509d-…
+ 4 1986… Ursus america…            30.1           -103.  cdrou… 50c9509d-…
+ 5 1990… Ursus america…            45.4            -93.2 cdrou… 50c9509d-…
+ 6 1990… Ursus america…            35.7            -76.6 cdrou… 50c9509d-…
+ 7 1990… Ursus america…            33.1            -91.9 cdrou… 50c9509d-…
+ 8 1990… Ursus america…            35.6            -82.9 cdrou… 50c9509d-…
+ 9 1990… Ursus america…            29.2            -81.8 cdrou… 50c9509d-…
+10 1990… Ursus america…            45.4            -93.1 cdrou… 50c9509d-…
+# ... with 490 more rows, and 70 more variables: publishingOrgKey <chr>,
+#   networkKeys <chr>, installationKey <chr>, publishingCountry <chr>,
+#   protocol <chr>, lastCrawled <chr>, lastParsed <chr>, crawlId <int>,
+#   extensions <chr>, basisOfRecord <chr>, taxonKey <int>, kingdomKey <int>,
+#   phylumKey <int>, classKey <int>, orderKey <int>, familyKey <int>,
+#   genusKey <int>, speciesKey <int>, acceptedTaxonKey <int>,
+#   acceptedScientificName <chr>, kingdom <chr>, phylum <chr>, order <chr>,
+#   family <chr>, genus <chr>, species <chr>, genericName <chr>,
+#   specificEpithet <chr>, taxonRank <chr>, taxonomicStatus <chr>,
+#   dateIdentified <chr>, coordinateUncertaintyInMeters <dbl>,
+#   stateProvince <chr>, year <int>, month <int>, day <int>, eventDate <chr>,
+#   modified <chr>, lastInterpreted <chr>, references <chr>, license <chr>,
+#   identifiers <chr>, facts <chr>, relations <chr>, geodeticDatum <chr>,
+#   class <chr>, countryCode <chr>, country <chr>, rightsHolder <chr>,
+#   identifier <chr>, verbatimEventDate <chr>, datasetName <chr>, gbifID <chr>,
+#   verbatimLocality <chr>, collectionCode <chr>, occurrenceID <chr>,
+#   taxonID <chr>, catalogNumber <chr>, recordedBy <chr>,
+#   http...unknown.org.occurrenceDetails <chr>, institutionCode <chr>,
+#   rights <chr>, eventTime <chr>, identificationID <chr>, name <chr>,
+#   infraspecificEpithet <chr>, informationWithheld <chr>,
+#   occurrenceRemarks <chr>, identificationRemarks <chr>, locality <chr>
