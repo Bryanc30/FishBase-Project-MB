@@ -57,7 +57,10 @@ To run the script type the following in the command line: <br>
 'sh scriptname.sh'
 
 ## **Expected Output**
-The designed script will take species information from a dataset and place the species names into a seperate file. Using the 'occ_search' tool in the rgbif package, the script will take a species name one at a time and run it providing a data set including latitide/longitude values. Using the 'map_fetch' tool in the same package, the script will run species names one at a time and output a map with longiude/latitude values plotted.
+The designed script will take species information from a dataset and place the species names into a seperate file. Using the 'occ_search' tool in the rgbif package, the script will take a species name one at a time and run it providing a data set including latitide/longitude values. Using the 'map_fetch' tool in the same package, the script will run species names one at a time and output a map with longiude/latitude values plotted. <br>
+
+## **References**
+Scott Chamberlain et al. 2019. Interface to the Global 'Biodiversity' Information Facility API. https://cran.r-project.org/web/packages/rgbif/rgbif.pdf
 
 
 
