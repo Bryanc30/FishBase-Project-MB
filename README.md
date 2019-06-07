@@ -63,6 +63,15 @@ The designed script will take species information from a dataset and place the s
 Chamberlain S, Barve V, Mcglinn D, Oldoni D, Desmet P, Geffert L, Ram K (2019). _rgbif: Interface to the Global Biodiversity
 	Information Facility API_. R package version 1.3.0, <URL:https://CRAN.R-project.org/package=rgbif>. <br>
 
+R Core Team (2019). R: A language and environment for
+  statistical computing. R Foundation for Statistical
+  Computing, Vienna, Austria. URL https://www.R-project.org/. <br>
+
 https://github.com/ropensci/rgbif
+
+https://www.hoffman2.idre.ucla.edu/software/
+
+## **Acknowledgements**
+Thank you to Professor Emily Curd and Daniel Chavez for guidance in creating this program. Thank you to the class of EEB c177 for the feedback and testing this program.
 
 
