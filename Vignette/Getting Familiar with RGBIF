@@ -1,0 +1,14 @@
+Getting familiar with rgbif in R studio by trying different commands
+install.packages('openssl') 
+install.packages('rgeos') 
+install.packages('rgbif') 
+occ_search(scientificName = "Ursus americanus", limit = 50) 
+occ_search(taxonKey=key, limit=20) 
+key <- name_backbone(name='Helianthus annuus', 
+kingdom='plants')$speciesKey 
+occ_search(taxonKey=key, limit=20) 
+splist <- c('Accipiter erythronemius', 'Junco hyemalis', 'Aix sponsa') 
+keys <- sapply(splist, function(x) name_backbone(name=x)$speciesKey, USE.NAMES=FALSE) 
+occ_search(taxonKey=keys, limit=5, hasCoordinate=TRUE) 
+x <- map_fetch(taxonKey = 3118771, year = 2010) 
+Since we are using the function "search_occ(___________)" we want to take the scientific name of the species (scientificName parameter) from the dataset and input it into the function.
