@@ -1,6 +1,6 @@
 # **Vignette** <br>
 ## **Running the Script** <br>
-1. Download the [rgbif](https://cran.r-project.org/web/packages/rgbif/rgbif.pdf) package manually in R, within Hoffman2. Also download three additional packages: openssl, rgeos and raster. <br>
+1. Download the [rgbif](https://cran.r-project.org/web/packages/rgbif/rgbif.pdf) package manually in R, within Hoffman2. Also download three additional packages: [openssl](https://cran.r-project.org/web/packages/openssl/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html) and [raster](https://cran.r-project.org/web/packages/raster/index.html). <br>
 In the command line, type the following:
 
 ```
