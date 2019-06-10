@@ -20,7 +20,7 @@ After the package has installed, return to Hoffman2. <br>
   $sh bashscript.sh datasetfile.txt 
   ```
   
-  **This Vignette directory contains a file called vignette.txt with detailed step-by-step instructions on how to use the scripts and what the outputs should look like** 
+  **This Vignette directory contains a file called vignette.txt with detailed step-by-step instructions on how to use the scripts and what the outputs should look like.** 
   
  
  
