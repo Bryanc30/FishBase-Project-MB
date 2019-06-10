@@ -25,14 +25,27 @@ The program can be run using R within [Hoffman2](https://www.hoffman2.idre.ucla.
 The program is designed to run in Hoffman2. The first part of the script is a bash script that will extract species information from a dataset. It is important to analyze the data prior to using the script because the location of species within the data set must be known. <br>
 
 The second part of the script is an R script that requires specific packages to be downloaded. To download the packages do the following within Hoffman2: <br>
-1. Load R by typing 'module load R' in the command line. <br>
-2. Next in the command line type 'R' <br>
-3. '>install.packages('nameofpackage')' <br>
+1. Load R <br>
+```
+$module load R 
+$R
+```
+**You know you have succesffully loaded R when a message appears in the command line begins with '>'.** <br>
 
-You can now return to Hoffman2 to run the script by typing 'quit()' in the command line. 
+2. Install packages
+```
+>install.packages("nameofpackage")
+```
+
+3. You can now return to Hoffman2 to run the script.
+```
+>quit()
+```
 
 To run the script type the following in the command line: <br>
-'sh scriptname.sh'
+```
+sh scriptname.sh datafile.txt
+```
 
 ## **Expected Output**
 The designed script will take species information from a dataset and place the species names into a seperate file. Using the 'occ_search' tool in the rgbif package, the script will take a species name one at a time and run it providing a data set including latitide/longitude values. Using the 'map_fetch' tool in the same package, the script will run species names one at a time and output a map with longiude/latitude values plotted. <br>
