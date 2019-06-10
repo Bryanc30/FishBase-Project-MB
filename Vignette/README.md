@@ -17,10 +17,10 @@ After the packages have installed, return to Hoffman2. <br>
  >quit() 
  ```
   
-2. In order to run the bash script, the bash script and R scripts must be in the same directory as the eDNA data set.<br>
+2. In order to run the bash script, the bash script and R scripts must be in the same directory as the eDNA data set file.<br>
   To run the bash script, do the following.<br>
   ```
-  $sh bashscript.sh datasetfile.txt 
+  $sh bashscript.sh Exampledata.txt
   ```
   
   **This Vignette directory contains a file called vignette.txt with detailed step-by-step instructions on how to use the scripts and what the outputs should look like.** 
