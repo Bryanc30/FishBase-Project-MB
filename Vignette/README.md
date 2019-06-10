@@ -1,5 +1,5 @@
-#**Vignette** <br>
-##**Running the Script** <br>
+# **Vignette** <br>
+## **Running the Script** <br>
 1. Download the [rgbif](https://cran.r-project.org/web/packages/rgbif/rgbif.pdf) package manually in R, within Hoffman2. <br>
 In the command line, type the following:
 
