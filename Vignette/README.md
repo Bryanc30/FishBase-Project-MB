@@ -1,15 +1,18 @@
 # **Vignette** <br>
 ## **Running the Script** <br>
-1. Download the [rgbif](https://cran.r-project.org/web/packages/rgbif/rgbif.pdf) package manually in R, within Hoffman2. <br>
+1. Download the [rgbif](https://cran.r-project.org/web/packages/rgbif/rgbif.pdf) package manually in R, within Hoffman2. Also download three additional packages: openssl, rgeos and raster. <br>
 In the command line, type the following:
 
 ```
 $module load R 
 $R 
 >install.packages("rgbif")
+>install.packages("openssl") 
+>install.packages("rgeos") 
+>install.packages("raster")
   ```
   
-After the package has installed, return to Hoffman2. <br>
+After the packages have installed, return to Hoffman2. <br>
  ``` 
  >quit() 
  ```
