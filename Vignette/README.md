@@ -10,6 +10,7 @@ $R
 >install.packages("openssl") 
 >install.packages("rgeos") 
 >install.packages("raster")
+>install.packages("png")
   ```
   
 After the packages have installed, return to Hoffman2. <br>
