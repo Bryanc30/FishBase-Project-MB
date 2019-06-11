@@ -34,7 +34,11 @@ $R
 
 2. Install packages
 ```
->install.packages("nameofpackage")
+>install.packages("rgbif")
+>install.packages("openssl") 
+>install.packages("rgeos") 
+>install.packages("raster")
+>install.packages("png")
 ```
 
 3. You can now return to Hoffman2 to run the script.
