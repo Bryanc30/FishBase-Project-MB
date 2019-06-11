@@ -19,7 +19,7 @@ The general idea of the program is to make it easier to see if data you collecte
 <img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
 
 ## **Dependencies**
-The program can be run using R within [Hoffman2](https://www.hoffman2.idre.ucla.edu/software/), so [R studio](https://www.rstudio.com/products/rstudio/download/) is not required. However it is recommended for practice purposes. In R within Hoffman2, four packages must downloaded manually: openssl, rgeos, rgbif, and raster. 
+The program can be run using R within [Hoffman2](https://www.hoffman2.idre.ucla.edu/software/), so [R studio](https://www.rstudio.com/products/rstudio/download/) is not required. However it is recommended for practice purposes. In R within Hoffman2, four packages must downloaded manually: openssl, rgeos, rgbif, raster and png. 
 
 ## **Instructions**
 The program is designed to run in Hoffman2. The first part of the script is a bash script that will extract species information from a dataset. It is important to analyze the data prior to using the script because the location of species within the data set must be known. <br>
