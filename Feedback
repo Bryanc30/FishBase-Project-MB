@@ -1,0 +1,58 @@
+Feedback Questionnaire - RGBIF
+
+
+The Readme
+1. Is the Readme file the first document displayed upon lading the Github? Does this Readme page include a title, and the name and contact information for all project members?
+
+Yes, the Readme includes all of the above elements.
+
+2. Is the purpose of this program clear from the Introduction? What -in your own words- is the motivation behind the program.
+
+The acronym "GBIF" is not explained in the "purpose" section, making it confusing. This project takes information on the location and name of different species and creates a map of where each species is found.
+
+3. Is there a program workflow and is it easy to understand? What -in your own words- is the program workflow?
+
+The program workflow diagram is far too small and very hard to read. The species name is pulled from a datafile, searched for in database, and then locational data is pulled from the GBIF database to create a species map.
+
+4. Are the dependencies indicated in the workflow? If there are Hoffman2 specific requirements are they indicated?
+
+Dependencies are indicated, and Hoffman2 instructions are listed. There are five packages listed though, not four.
+
+5. Are there instructions for running the program? Do the instructions make sense? What would you do to improve the instructions?
+
+Yes, there are instructions. The instructions are somewhat clear. Is the script called "scriptname"? You should probably explain the placeholders you used in your R code and what files should actually go there. You also should explain what you mean by "analyze the data prior to using the script" - it's not clear how the data should be formatted and what analysis you need to do for the script to work.
+
+6. Is there a section that indicates the files and directories produced by the program?
+
+There is. However, it doesn't specify what the output file will be called.
+
+7. Are the research programs / motivations for the program cited? Are the dependencies cited?
+
+Yes, they are.
+
+The Scripts
+8. Is there a directory that contains all of the program scripts?
+
+There are two scripts, a bash script and an R script, but they are not in a directory.
+
+9. Do these programs generate a run log?
+
+Not as far as I can tell.
+
+The Vignette
+10. Is there a directory called Vignette and does it include a test set, the commands used to run the program and the expected output databases?
+
+Yes!
+
+11. Where you able to run the Vignette using the small test dataset? If not what errors did you get? If so was it easy to run the dataset? Where the instructions clear.
+
+Yes, it ran smoothly.
+
+12. Where you able to reproduce the expected output? If not what was different.
+
+I was!
+
+General
+13. Give at least two suggestions for ways to improve the GitHub page or the operation of the program.
+
+The ReadMe could certainly be clearer. Also, I think that if your map plotting function also included a base map, such as country outlines, topography, features such as rivers or mountains, or at least a separation between land and water, it would make your output significantly clearer.
