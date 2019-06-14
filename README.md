@@ -17,7 +17,7 @@ The general idea of the program is to make it easier to see if data you collecte
 ## **Program Workflow:**
 <img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
 Species names ---> "occ_search(scientificName=__)---> output data listing latitude/longitude values<br>
-Specied names ---> mapfetch tool ---> Map plotting latitude/longitude data <br>
+Species names ---> mapfetch tool ---> Map plotting latitude/longitude data <br>
 
 
 ## **Dependencies**
