@@ -2,7 +2,8 @@
 
 ## **Authors** 
 Bryan bclem96@gmail.com  <br>
-Maria Tafoya: tafoya.maria07@gmail.com  <br>
+Maria Tafoya: tafoya.maria07@gmail.com <br>
+DOI: https://doi.org/10.5281/zenodo.3245744 <br>
 
 ## **Purpose:** 
 The main purpose of the program will be to provide a fast and easy method comparison of species locational data by providing the user with reference data to see if their own eDNA data is normal. It will take input data from the user involving multiple species and return both the GBIF database results and create a file folder containing population maps of each of those species. <br>
