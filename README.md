@@ -3,7 +3,7 @@
 ## **Authors** 
 Bryan bclem96@gmail.com  <br>
 Maria Tafoya: tafoya.maria07@gmail.com <br>
-DOI: https://doi.org/10.5281/zenodo.3245744 <br>
+
 
 ## **Purpose:** 
 The main purpose of the program will be to provide a fast and easy method comparison of species locational data by providing the user with reference data to see if their own eDNA data is normal. It will take input data from the user involving multiple species and return both the GBIF (Global Biodiversity Information Facility) database results and create a file folder containing population maps of each of those species. <br>
@@ -68,6 +68,10 @@ R Core Team (2019). R: A language and environment for
 https://github.com/ropensci/rgbif
 
 https://www.hoffman2.idre.ucla.edu/software/
+
+## **Citing**
+DOI: 10.5281/zenodo.3245744 
+https://doi.org/10.5281/zenodo.3245744 <br>
 
 ## **Acknowledgements**
 Thank you to Professor Emily Curd and Daniel Chavez for guidance in creating this program. Thank you to the class of EEB c177 for the feedback and testing the program.
