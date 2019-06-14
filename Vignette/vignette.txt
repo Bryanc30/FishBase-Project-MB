@@ -85,7 +85,9 @@ Before running the script, an additional package must be manually installed in R
 
 Script: 
 #install.packages('raster')
+#install.packages('png')
 library(raster)
+library(png)
 
 input1 = read.csv("thing.txt", header = F)
 col1 <- input1[[1]]
