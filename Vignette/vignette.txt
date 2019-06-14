@@ -34,11 +34,13 @@ Script:
 #install.packages('openssl')
 #install.packages('rgeos')
 #install.packages('rgbif')
+#install.packages('png')
 
 #Load Packages
 library(openssl)
 library(rgeos)
 library(rgbif)
+library(png)
 
 input = read.csv("thing.txt")
 col <- input[[1]]
