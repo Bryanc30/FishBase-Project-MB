@@ -52,6 +52,7 @@ To run the script type the following in the command line: <br>
 ```
 sh scriptname.sh datafile.txt
 ```
+**NOTE: The bashscript is not called "scriptname," it can be called anything as long as it is followed with ".sh." The script itself includes "$1" in the bash code, this is the input file that contains the species data you want to extract. Since the file is not specified in the script, the file must be specified prior to running the code as indicated in the command line above.
 
 ## **Expected Output**
 The designed script will take species information from a dataset and place the species names into a seperate file. Using the 'occ_search' tool in the rgbif package, the script will take a species name one at a time and run it providing a data set including latitide/longitude values. Using the 'map_fetch' tool in the same package, the script will run species names one at a time and output a map with longiude/latitude values plotted. <br>
