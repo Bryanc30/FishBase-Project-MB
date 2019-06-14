@@ -5,15 +5,13 @@ Bryan bclem96@gmail.com  <br>
 Maria Tafoya: tafoya.maria07@gmail.com  <br>
 
 ## **Purpose:** 
-The main purpose of the program will be to take input data from the user involving multiple species, as well as locational data, and return both the GBIF database results and create a file folder containing population maps of each of those species. <br>
+The main purpose of the program will be to provide a fast and easy method comparison of species locational data by providing the user with reference data to see if their own eDNA data is normal. It will take input data from the user involving multiple species and return both the GBIF database results and create a file folder containing population maps of each of those species. <br>
 
 ### **General Idea**
-The general idea of the program is to make it easier to see if data you collected on species' locations is unusual compared to what has already been observed in years past. It does so using the GBIF database, which contains hundreds of records on almost every species. <br>
+The general idea of the program is to make it easier to see if data you collected on species' locations is unusu67al compared to what has already been observed in years past. It does so using the GBIF database, which contains hundreds of records on almost every species. <br>
 
 **The input would have the following:** <br>
-	Species Scientific Name <br>
-  Lattitude <br>
-	Longitude <br>
+	Multiple Species Scientific Name <br>
 
 ## **Program Workflow:**
 <img src="https://github.com/Bryanc30/FishBase-Project-MB/blob/master/programminstuff.png" width="50%" height="50%">
